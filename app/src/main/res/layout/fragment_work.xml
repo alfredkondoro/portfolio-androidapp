@@ -3,13 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".views.WorkFragment">
 
-    <TextView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/work_alfred"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold"/>/>
+        android:layout_centerHorizontal="true"
+        app:cardElevation="5dp">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/textviewAbout"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/work_alfred" />
+
+    </androidx.cardview.widget.CardView>
 
 </FrameLayout>

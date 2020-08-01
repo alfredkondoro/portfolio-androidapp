@@ -7,13 +7,13 @@
     tools:context=".views.AboutFragment">
 
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         app:cardElevation="5dp">
 
         <TextView
+            android:layout_marginTop="15dp"
             android:id="@+id/textviewAbout"
             android:textColor="@color/colorPrimaryDark"
             android:textStyle="italic"
