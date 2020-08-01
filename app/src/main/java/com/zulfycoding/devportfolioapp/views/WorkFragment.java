@@ -20,7 +20,7 @@ public class WorkFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View workView = inflater.inflate(R.layout.fragment_about, container, false);
+        View workView = inflater.inflate(R.layout.fragment_work, container, false);
         // Inflate the layout for this fragment
         return workView;
     }

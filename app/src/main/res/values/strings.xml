@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">DevPortfolio App</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_alfred">
+        Alfred Kondoro is a creative designer, with experience designing graphics and developing software. My background in graphics designing and software development shows my mindful but competitive approach. I am fueled by my passion for understanding and solving problems. I consider myself a ‘forever student,’ eager to both build on my academic foundations in Computer Studies and stay in tune with the latest technological innovations through continued coursework.
+\n\n
+My hunger for knowledge and determination to turn information into action has contributed to my most recent success at various companies and start-ups in Tanzania. Meanwhile, I have vastly improved the productivity of my team by implementing strategic project management methods and ensuring a work-life balance for my team.
+\n\n
+I believe mindfulness in the workplace is key to success. I live out through my interests in meditation, vacationing and painting. I am currently working as a freelance graphic designer and software developer and is always interested in a challenge. \n\n Reach out to alfredkondoro97@gmail.com to connect!</string>
+    <string name="skills_alfred">
+        * Graphics Designing \n\n * Photo Editing \n\n * Video Editing \n\n * Website Designing \n\n * Software Development \n\n * Database Designing </string>
+    <string name="work_alfred">
+        I have done alot of projects these are some of my clients:</string>
+    <string name="contact_alfred">Let us keep in touch!</string>
 </resources>

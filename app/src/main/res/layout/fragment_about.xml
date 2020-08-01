@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".views.AboutFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/textview1"
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_centerHorizontal="true"
+        app:cardElevation="5dp">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/textviewAbout"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/about_alfred" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
